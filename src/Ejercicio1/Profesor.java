@@ -40,4 +40,11 @@ public class Profesor extends Empleado{
 	{
 		this.antiguedad = antiguedad;
 	}
+	
+	  @Override
+    public String toString() {
+    	return "id=" + getId() + ", nombre=" + getNombre() + ", edad=" + getEdad() + 
+                ", cargo=" + cargo + ", antiguedadDocente=" + antiguedad;
+    }
+	
 }
