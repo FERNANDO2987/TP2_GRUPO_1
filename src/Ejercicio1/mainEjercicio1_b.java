@@ -15,13 +15,27 @@ public class mainEjercicio1_b {
         listaProfesores.add(new Profesor("Ana Martínez", 42, "Ayudante", 18));
         listaProfesores.add(new Profesor("Luis Fernández", 30, "Jefe de Trabajos Prácticos", 8));
 	
-        Iterator<Profesor> iterador = listaProfesores.iterator();
-        while (iterador.hasNext()) {
+        //terator<Profesor> iterador = listaProfesores.iterator();
+        //while (iterador.hasNext()) {
         	
-            System.out.println(iterador.next());
-        }
+        //    System.out.println(iterador.next());
+        //}
 
+        Profesor a = new Profesor();
+        Profesor b = new Profesor();
         
+        a.setCargo("director");
+        b.setCargo("director");
+        a.setNombre("Juan");
+        b.setNombre("Juan");
+        
+        System.out.println(a.toString());
+        System.out.println(b.toString());
+        
+        if(a.equals(b))
+        {
+        	System.out.println("Es el mismo profesor");
+        }
 	}
 
 }

@@ -21,7 +21,6 @@ public class mainEjercicio1_a {
         while (iterador.hasNext()) {
             System.out.println(iterador.next());
 		
-
         }
 	}
 

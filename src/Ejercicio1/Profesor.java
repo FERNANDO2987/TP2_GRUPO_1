@@ -59,6 +59,29 @@ public class Profesor extends Empleado implements Comparable<Profesor>{
 				return -1;
 	}
 
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Profesor other = (Profesor) obj;
+		if (antiguedad != other.antiguedad)
+			return false;
+		if (cargo == null) {
+			if (other.cargo != null)
+				return false;
+		} else if (!cargo.equals(other.cargo))
+			return false;
+		return true;
+	}
+
+	
+
 	
 	
 }
