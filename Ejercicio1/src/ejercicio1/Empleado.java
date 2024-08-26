@@ -1,4 +1,4 @@
-package Ejercicio1;
+package ejercicio1;
 
 public class Empleado {
 	private final int id;
@@ -61,5 +61,4 @@ public class Empleado {
 	}
 	
 }
-
 

@@ -1,4 +1,4 @@
-package Ejercicio1;
+package ejercicio1;
 
 public class Principal {
 	///Punto 8 
@@ -30,3 +30,4 @@ public class Principal {
 		}
 	}
 }
+
