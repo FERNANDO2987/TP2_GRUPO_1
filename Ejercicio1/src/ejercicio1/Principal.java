@@ -28,6 +28,23 @@ public class Principal {
 			System.out.println(empleados[i].toString());
 			System.out.println("El proximo ID sera el " + proximosID[i]);
 		}
+		
+		
+		Profesor a = new Profesor();  
+		Profesor b = new Profesor();  
+
+		a.setCargo("director");  
+		b.setCargo("director");  
+		a.setNombre("Juan");  
+		b.setNombre("Juan");  
+
+		System.out.println(a.toString());  
+		System.out.println(b.toString());  
+
+		if(a.equals(b))  
+		{  
+		    System.out.println("Es el mismo profesor");  
+		}  
 	}
 }
 
